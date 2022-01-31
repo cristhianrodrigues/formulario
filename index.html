@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <title>Frontend Mentor | Formulario</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <Section class="container">
+        <div id="primeiraColuna">
+          <h1> Aprenda a programar observando os outros</h1>
+
+          <p class="paragrafoDaEsquerda">Veja como desenvolvedores experientes resolvem problemas em tempo real. Assistir os tutoriais de script é ótimo,
+          mas entender como os desenvolvedores pensam é inestimável.</p>
+        </div>
+        <div id="segundaColuna">
+          <div class="textoSuperiorDireito">
+            <p><b id="textoDestadado">Experimente gratuitamente por 7 dias </b> e depois pague R$ 113/mês.</p>
+          </div>
+
+        <div id="conteudoDoFormulario">
+            <form class="formulario">
+                <fieldset>
+                    <div>
+                        
+                        <input type="text" name="nome" id="nome" placeholder="Nome"><i><img id="img-erroNome" class="img-erro" src="./images/error-icon.svg" alt=""></i>
+
+                        <small id="MensagemDeErroNome">mensagem de erro</small>
+                    </div>
+                    <div>
+                        
+                        <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome"><i><img id="img-erroSobrenome" class="img-erro" src="./images/error-icon.svg" alt=""></i>
+
+                        <small id="MensagemDeErroSobrenome">mensagem de erro</small>
+                    </div>
+                    <div>
+                        
+                        <input type="email" name="email" id="email" placeholder="Endereço De Email"><i><img id="img-erroEmail" class="img-erro" src="./images/error-icon.svg" alt=""></i>
+
+                        <small id="MensagemDeErroEmail">mensagem de erro</small>
+                    </div>
+                    <div>
+                        
+                        <input type="password" name="senha" id="senha" placeholder="Senha" ><i><img id="img-erroSenha" class="img-erro" src="./images/error-icon.svg" alt=""></i>
+
+                        <small id="MensagemDeErroSenha">mensagem de erro</small>
+                    </div>
+                </fieldset>
+
+            </form>
+
+            <button id="botao">Solicite sua avaliação gratuita</button> 
+
+            <p id="confirmacaoDeServicos">Ao clicar no botão, você concorda com nossos <b id="termos">Termos De Serviços</b></p>
+            
+            <footer>
+              <p class="attribution">
+                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+                Coded by <a href="https://cristhianrodrigues.github.io/">Cristhian Rodrigues</a>.
+              </p>
+            </footer>
+          </div>
+        </div>
+  </Section>
+  <script src="scripts.js"></script>
+</body>
+</html>
